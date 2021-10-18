@@ -1,0 +1,7 @@
+[
+  {
+    "repository":  "LineageOS/android_kernel_asus_sm8250",
+    "target_path": "kernel/asus/sm8250",
+    "branch":      "lineage-18.1"
+  }
+]

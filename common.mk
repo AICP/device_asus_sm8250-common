@@ -270,6 +270,10 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor:32
 
+# PartsBin
+PRODUCT_PACKAGES += \
+    PartsBin
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
@@ -315,8 +319,8 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 
 # Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.trust@1.0-service
 
 # Update engine
 PRODUCT_PACKAGES += \
